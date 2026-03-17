@@ -27,7 +27,7 @@ This repository aims to serve as a resource for the IR community and related res
 - [**ECIR'22**] Continual Learning of Long Topic Sequences in Neural Information Retrieval. [[Paper](https://dl.acm.org/doi/10.1007/978-3-030-99736-6_17)][[Code](https://github.com/tgeral68/continual_learning_of_long_topic)]
 - [**ECIR'21**] Studying Catastrophic Forgetting in Neural Ranking Models. [[Paper](https://dl.acm.org/doi/10.1007/978-3-030-72113-8_25)][[Code](https://github.com/jeslev/OpenNIR-Lifelong)]
 
-### Image-modal Retrieval
+### Image Retrieval
 - [**CVPR'21**] Continual Learning for Visual Search with Backward Consistent Feature Embedding. [[Paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Wan_Continual_Learning_for_Visual_Search_With_Backward_Consistent_Feature_Embedding_CVPR_2022_paper.pdf)][[Code](https://github.com/ivclab/CVS)]
 - [**BMVC'20**] On the Exploration of Incremental Learning for Fine-grained Image Retrieval. [[Paper](https://www.bmva-archive.org.uk/bmvc/2020/assets/papers/0079.pdf)]
 - [**CVPR'19**] Deep incremental hashing network for efficient image retrieval. [[Paper](https://www.bmva-archive.org.uk/bmvc/2020/assets/papers/0079.pdf)][[Code](https://github.com/IIE-MR/DIHN)]
@@ -52,7 +52,7 @@ This repository aims to serve as a resource for the IR community and related res
 
 ### Lists
 ---
-- **gabriben/awesome-generative-information-retrieval**.. [[Github](https://github.com/gabriben/awesome-generative-information-retrieval)]
+- **gabriben/awesome-generative-information-retrieval**. [[Github](https://github.com/gabriben/awesome-generative-information-retrieval)]
 - **Chriskuei/awesome-generative-retrieval-models**. [[Github](https://github.com/Chriskuei/awesome-generative-retrieval-models)]
 
 ## Note
