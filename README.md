@@ -37,13 +37,12 @@ This repository aims to serve as a resource for the IR community and related res
 - [**CVPR'21 Workshop**] Continual learning in cross-modal retrieval. [[Paper](https://openaccess.thecvf.com/content/CVPR2021W/CLVision/Papers/Wang_Continual_Learning_in_Cross-Modal_Retrieval_CVPRW_2021_Paper.pdf)]
 
 ### Multimodal Retrieval
-- [**NeurIPS'25**] Continual Multimodal Contrastive Learning. [[Paper](https://neurips.cc/virtual/2025/poster/116428][[Code](https://github.com/Xiaohao-Liu/CMCL)]
-- [**ICLR'25**] C-CLIP: Multimodal Continual Learning for Vision-Language Model. [[Paper](https://proceedings.iclr.cc/paper_files/paper/2025/file/72fb9ab442fc60b7ae5d53bf6b478273-Paper-Conference.pdf][[Code](https://github.com/SmallPigPeppa/C-CLIP)]
+- [**NeurIPS'25**] Continual Multimodal Contrastive Learning. [[Paper](https://neurips.cc/virtual/2025/poster/116428)][[Code](https://github.com/Xiaohao-Liu/CMCL)]
+- [**ICLR'25**] C-CLIP: Multimodal Continual Learning for Vision-Language Model. [[Paper](https://proceedings.iclr.cc/paper_files/paper/2025/file/72fb9ab442fc60b7ae5d53bf6b478273-Paper-Conference.pdf)][[Code](https://github.com/SmallPigPeppa/C-CLIP)]
 
 ## Others
 
 ### Temporal IR
----
 Temporal information is a fundamental source of non-stationarity in data distributions, making Temporal IR inherently relevant to CL in IR.
 
 #### Surveys
@@ -63,7 +62,6 @@ tion for Question Answering. [[Paper](https://dl.acm.org/doi/10.1145/3627673.367
 
 
 ### Fundamental CL
----
 - [**Nature Machine Intelligence'22**] Three scenarios for continual learning. [[Paper](https://openreview.net/forum?id=9aZ2ixiYGd)][[Code](https://github.com/GMvandeVen/continual-learning)]
 - [**Trends in Cognitive Sciences'99**] Catastrophic forgetting in connectionist networks. [[Paper](https://lead.ube.fr/wp-content/uploads/2023/09/000282-catastrophic-forgetting-in-connectionist-networks.pdf)]
 - [**Psychology of Learning and Motivation'89**] Catastrophic Interference in Connectionist Networks: The Sequential Learning Problem. [[Paper](https://www.sciencedirect.com/science/chapter/bookseries/abs/pii/S0079742108605368)]
@@ -75,15 +73,14 @@ tion for Question Answering. [[Paper](https://dl.acm.org/doi/10.1145/3627673.367
 - **Chriskuei/awesome-generative-retrieval-models**. [[Github](https://github.com/Chriskuei/awesome-generative-retrieval-models)]
 
 ## Note
-This repository focuses on CL for IR, including text, image, cross-modal, and multimodal retrieval, as well as retrieval-augmented generation (RAG), with a particular focus on the retriever component.
+This repository focuses on CL for IR, including text, image, cross-modal, multimodal, and temporal retrieval, as well as retrieval-augmented generation (RAG), with a particular focus on the retriever component.
 
 We do not cover CL for classification tasks, which have been extensively studied, particularly in the computer vision community, and already have well-established benchmarks and surveys. 
 To avoid redundancy and keep this collection focused on retrieval-centric problems, we recommend the following comprehensive survey for a broader overview of CL:
 
 [**TPAMI 2024**] A Comprehensive Survey of Continual Learning: Theory, Method and Application. [[Paper](https://arxiv.org/abs/2302.00487)] [[Code](https://github.com/lywang3081/Awesome-Continual-Learning)]
 
-We also recommend this curated list:  
-[xialeiliu/Awesome-Incremental-Learning](https://github.com/xialeiliu/Awesome-Incremental-Learning), which offers a comprehensive overview of CL but does not specifically focus on IR.
+We also recommend this curated list:  [xialeiliu/Awesome-Incremental-Learning](https://github.com/xialeiliu/Awesome-Incremental-Learning), which offers a comprehensive overview of CL but does not specifically focus on IR.
 
 ## Feel free to contact me or simply open an issue if you find any interesting paper is missing. :D
 
