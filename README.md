@@ -12,6 +12,7 @@ This repository aims to serve as a resource for the IR community and related res
 ## Papers
 
 ### Text/Document Retrieval
+- [**SIGIR'26**] A Parametric Memory Head for Continual Generative Retrieval. [[Paper](http://arxiv.org/abs/2601.02708)]
 - [**KDD'26**] CREAM: Continual Retrieval on Dynamic Streaming Corpora with Adaptive Soft Memory. [[Paper](http://arxiv.org/abs/2601.02708)][[Code](https://github.com/DAIS-KU/CREAM)]
 - [**Information Sciences'25**] Advancing continual lifelong learning in neural information retrieval: Definition, dataset, framework, and empirical evaluation. [[Paper](https://www.sciencedirect.com/science/article/pii/S0020025524012829)][[Code](https://github.com/JingruiHou/CLNIR)]
 - [**CoLLAs'25**] Query Drift Compensation: Enabling Compatibility in Continual Learning of Retrieval Embedding Models. [[Paper](http://arxiv.org/abs/2506.00037)][[Code](https://github.com/dipamgoswami/QDC)]
