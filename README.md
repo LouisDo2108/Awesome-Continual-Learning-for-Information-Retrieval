@@ -30,6 +30,7 @@ This repository aims to serve as a resource for the IR community and related res
 - [**ECIR'21**] Studying Catastrophic Forgetting in Neural Ranking Models. [[Paper](https://dl.acm.org/doi/10.1007/978-3-030-72113-8_25)][[Code](https://github.com/jeslev/OpenNIR-Lifelong)]
 
 ### Image Retrieval
+- [**CVPR'21**] Learning continual compatible representation for re-indexing free lifelong person re-identification. [[Paper](https://openaccess.thecvf.com/content/CVPR2024/papers/Cui_Learning_Continual_Compatible_Representation_for_Re-indexing_Free_Lifelong_Person_Re-identification_CVPR_2024_paper.pdf)][[Code](https://github.com/PKU-ICST-MIPL/C2R_CVPR2024)]
 - [**CVPR'21**] Continual Learning for Visual Search with Backward Consistent Feature Embedding. [[Paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Wan_Continual_Learning_for_Visual_Search_With_Backward_Consistent_Feature_Embedding_CVPR_2022_paper.pdf)][[Code](https://github.com/ivclab/CVS)]
 - [**BMVC'20**] On the Exploration of Incremental Learning for Fine-grained Image Retrieval. [[Paper](https://www.bmva-archive.org.uk/bmvc/2020/assets/papers/0079.pdf)]
 - [**CVPR'19**] Deep incremental hashing network for efficient image retrieval. [[Paper](https://www.bmva-archive.org.uk/bmvc/2020/assets/papers/0079.pdf)][[Code](https://github.com/IIE-MR/DIHN)]
@@ -38,8 +39,18 @@ This repository aims to serve as a resource for the IR community and related res
 - [**CVPR'21 Workshop**] Continual learning in cross-modal retrieval. [[Paper](https://openaccess.thecvf.com/content/CVPR2021W/CLVision/Papers/Wang_Continual_Learning_in_Cross-Modal_Retrieval_CVPRW_2021_Paper.pdf)]
 
 ### Multimodal Retrieval
+- [**ICML'26**] Hyperbolic Multimodal Continual Learning. [[Paper](https://openreview.net/pdf?id=e4tSzgWjXU)][[Code](https://github.com/HUBERILT/HMCL_ICML)]
 - [**NeurIPS'25**] Continual Multimodal Contrastive Learning. [[Paper](https://neurips.cc/virtual/2025/poster/116428)][[Code](https://github.com/Xiaohao-Liu/CMCL)]
 - [**ICLR'25**] C-CLIP: Multimodal Continual Learning for Vision-Language Model. [[Paper](https://proceedings.iclr.cc/paper_files/paper/2025/file/72fb9ab442fc60b7ae5d53bf6b478273-Paper-Conference.pdf)][[Code](https://github.com/SmallPigPeppa/C-CLIP)]
+
+### Compatible Representation Learning (Relevant since it is inefficient to re-index the vector database of old embeddings)
+- [**TPAMI'26**] A Stationary (and Therefore Compatible) Representation is All You Need. [[Paper]([https://openreview.net/pdf?id=e4tSzgWjXU](https://arxiv.org/pdf/2606.12488))][[Code](https://github.com/miccunifi/iamcl2r)]
+- [**CoLLAs'25**] Query Drift Compensation: Enabling Compatibility in Continual Learning of Retrieval Embedding Models. [[Paper](http://arxiv.org/abs/2506.00037)][[Code](https://github.com/dipamgoswami/QDC)]
+- [**ICML'25**] Learning Along the Arrow of Time: Hyperbolic Geometry for Backward-Compatible Representation Learning. [[Paper](https://arxiv.org/pdf/2506.05826)]
+- [**NeurIPS'25**] λ-Orthogonality Regularization for Compatible Representation Learning.  [[Paper](https://proceedings.neurips.cc/paper_files/paper/2025/file/29d0499a91a62aae2f7d07c622c12418-Paper-Conference.pdf)][[Code](https://github.com/miccunifi/lambda_orthogonality)]
+- [**ECCV'24**] Backward-compatible aligned representations via an orthogonal transformation layer. [[Paper](https://arxiv.org/pdf/2408.08793)][[Code](https://github.com/z3n0e/OCA)]
+- [**TOMM'23**] CL2R: Compatible Lifelong Learning Representations. [[Paper](https://dl.acm.org/doi/pdf/10.1145/3564786)][[Code](https://github.com/NiccoBiondi/cores-compatibility)]
+- [**TPAMI'23**] CoReS: Compatible Representations via Stationarity. [[Paper](https://ieeexplore.ieee.org/abstract/document/10077426))][[Code](https://github.com/NiccoBiondi/cores-compatibility)]
 
 ## Others
 
@@ -51,15 +62,12 @@ Temporal information is a fundamental source of non-stationarity in data distrib
 - [**Foundations and Trends® in IR**] Temporal Information Retrieval. [[Paper](https://dl.acm.org/doi/abs/10.1561/1500000043)]
 
 #### Papers
-- [**arxiv'26**] Efficient Temporal-aware Matryoshka Adaptation
-for Temporal Information Retrieval. [[Paper](https://arxiv.org/pdf/2601.05549)]
+- [**arxiv'26**] Efficient Temporal-aware Matryoshka Adaptation for Temporal Information Retrieval. [[Paper](https://arxiv.org/pdf/2601.05549)]
 - [**WSDM'26**] TempRetriever: Fusion-based Temporal Dense Passage Retrieval for Time-Sensitive Questions. [[Paper](https://dl.acm.org/doi/10.1145/3773966.3777938)][[Code](https://github.com/DataScienceUIBK/TempRetriever)]
 - [**EMNLP'25 Findings**] MRAG: A modular retrieval framework for time-sensitive question answering. [[Paper](https://aclanthology.org/2025.findings-emnlp.167)][[Code](https://github.com/siyue-zhang/MRAG)]
 - [**ACL'25 Workshop**] Temporal information retrieval via time-specifier model merging. [[Paper](https://aclanthology.org/2025.knowllm-1.1)][[Code](https://github.com/seungyoonee/TSM)]
 - [**CIKM'24**] Time-Sensitve Retrieval-Augmented Genera-
 tion for Question Answering. [[Paper](https://dl.acm.org/doi/10.1145/3627673.3679800)][[Code](https://github.com/suzhou-22/TS-Retriever)]
-
-
 
 
 ### Fundamental CL
