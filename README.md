@@ -1,6 +1,6 @@
 # Awesome Continual Learning for Information Retrieval
 
-Continual Learning (CL) (also known as Incremental or Lifelong Learning) in Information Retrieval (IR) remains underexplored, but is gaining increasing attention, motivating the need for a well-curated collection of relevant literature.
+Continual Learning (CL) (also known as Incremental Learning or Lifelong Learning) in Information Retrieval (IR) remains underexplored, but is gaining increasing attention, motivating the need for a well-curated collection of relevant literature.
 
 This repository aims to serve as a resource for the IR community and related research areas.
 
@@ -44,10 +44,11 @@ This repository aims to serve as a resource for the IR community and related res
 - [**ICLR'25**] C-CLIP: Multimodal Continual Learning for Vision-Language Model. [[Paper](https://proceedings.iclr.cc/paper_files/paper/2025/file/72fb9ab442fc60b7ae5d53bf6b478273-Paper-Conference.pdf)][[Code](https://github.com/SmallPigPeppa/C-CLIP)]
 
 ### Compatible Representation Learning (Relevant since it is inefficient to re-index the vector database of old embeddings)
-- [**TPAMI'26**] A Stationary (and Therefore Compatible) Representation is All You Need. [[Paper]([https://openreview.net/pdf?id=e4tSzgWjXU](https://arxiv.org/pdf/2606.12488))][[Code](https://github.com/miccunifi/iamcl2r)]
+- [**TPAMI'26**] A Stationary (and Therefore Compatible) Representation is All You Need. [[Paper](http://arxiv.org/abs/2606.12488)][[Code](https://github.com/miccunifi/iamcl2r)]
 - [**CoLLAs'25**] Query Drift Compensation: Enabling Compatibility in Continual Learning of Retrieval Embedding Models. [[Paper](http://arxiv.org/abs/2506.00037)][[Code](https://github.com/dipamgoswami/QDC)]
 - [**ICML'25**] Learning Along the Arrow of Time: Hyperbolic Geometry for Backward-Compatible Representation Learning. [[Paper](https://arxiv.org/pdf/2506.05826)]
 - [**NeurIPS'25**] λ-Orthogonality Regularization for Compatible Representation Learning.  [[Paper](https://proceedings.neurips.cc/paper_files/paper/2025/file/29d0499a91a62aae2f7d07c622c12418-Paper-Conference.pdf)][[Code](https://github.com/miccunifi/lambda_orthogonality)]
+- [**CVPR'24**] Stationary Representations: Optimally Approximating Compatibility and Implications for Improved Model Replacements. [[Paper](https://openaccess.thecvf.com/content/CVPR2024/papers/Biondi_Stationary_Representations_Optimally_Approximating_Compatibility_and_Implications_for_Improved_Model_CVPR_2024_paper.pdf)][[Code](https://github.com/miccunifi/iamcl2r)]
 - [**ECCV'24**] Backward-compatible aligned representations via an orthogonal transformation layer. [[Paper](https://arxiv.org/pdf/2408.08793)][[Code](https://github.com/z3n0e/OCA)]
 - [**TOMM'23**] CL2R: Compatible Lifelong Learning Representations. [[Paper](https://dl.acm.org/doi/pdf/10.1145/3564786)][[Code](https://github.com/NiccoBiondi/cores-compatibility)]
 - [**TPAMI'23**] CoReS: Compatible Representations via Stationarity. [[Paper](https://ieeexplore.ieee.org/abstract/document/10077426))][[Code](https://github.com/NiccoBiondi/cores-compatibility)]
