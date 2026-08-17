@@ -43,7 +43,17 @@ This repository aims to serve as a resource for the IR community and related res
 - [**NeurIPS'25**] Continual Multimodal Contrastive Learning. [[Paper](https://neurips.cc/virtual/2025/poster/116428)][[Code](https://github.com/Xiaohao-Liu/CMCL)]
 - [**ICLR'25**] C-CLIP: Multimodal Continual Learning for Vision-Language Model. [[Paper](https://proceedings.iclr.cc/paper_files/paper/2025/file/72fb9ab442fc60b7ae5d53bf6b478273-Paper-Conference.pdf)][[Code](https://github.com/SmallPigPeppa/C-CLIP)]
 
-### Compatible Representation Learning (Relevant since it is inefficient to re-index the vector database of old embeddings)
+### Compatible Representation Learning
+**Why this is relevant**
+
+🗄️ Many real-world systems work by storing a large collection of feature vectors: retrieval and visual search engines, recommender systems, face recognition systems, and any pipeline that indexes a database of embeddings once and queries it many times.
+
+⚠️ The catch is that the model producing those features keeps improving over time. And normally, every time you update the model, its new features are no longer comparable with the ones already stored. So you have to re-embed the entire database (re-indexing / backfilling) before you can use the new model. With millions or billions of stored items, that's expensive, slow, and sometimes simply not feasible.
+
+Biondi et al. prove that stationary representations — those whose features follow a regular simplex geometry — are backward compatible by definition: features from an updated model can be matched directly against features produced by older models, with no re-indexing. 
+
+Note: Copy paste from this [post](https://www.linkedin.com/posts/niccol%C3%B2-biondi-6904bb182_cvpr2026-activity-7471198591617884161-NFtk?utm_source=share&utm_medium=member_desktop&rcm=ACoAACpz_sABgnES7S0pSzBvBsFu1PUHk0KqAQE) with some modifications.
+
 - [**TPAMI'26**] A Stationary (and Therefore Compatible) Representation is All You Need. [[Paper](http://arxiv.org/abs/2606.12488)][[Code](https://github.com/miccunifi/iamcl2r)]
 - [**CoLLAs'25**] Query Drift Compensation: Enabling Compatibility in Continual Learning of Retrieval Embedding Models. [[Paper](http://arxiv.org/abs/2506.00037)][[Code](https://github.com/dipamgoswami/QDC)]
 - [**ICML'25**] Learning Along the Arrow of Time: Hyperbolic Geometry for Backward-Compatible Representation Learning. [[Paper](https://arxiv.org/pdf/2506.05826)]
@@ -51,7 +61,7 @@ This repository aims to serve as a resource for the IR community and related res
 - [**CVPR'24**] Stationary Representations: Optimally Approximating Compatibility and Implications for Improved Model Replacements. [[Paper](https://openaccess.thecvf.com/content/CVPR2024/papers/Biondi_Stationary_Representations_Optimally_Approximating_Compatibility_and_Implications_for_Improved_Model_CVPR_2024_paper.pdf)][[Code](https://github.com/miccunifi/iamcl2r)]
 - [**ECCV'24**] Backward-compatible aligned representations via an orthogonal transformation layer. [[Paper](https://arxiv.org/pdf/2408.08793)][[Code](https://github.com/z3n0e/OCA)]
 - [**TOMM'23**] CL2R: Compatible Lifelong Learning Representations. [[Paper](https://dl.acm.org/doi/pdf/10.1145/3564786)][[Code](https://github.com/NiccoBiondi/cores-compatibility)]
-- [**TPAMI'23**] CoReS: Compatible Representations via Stationarity. [[Paper](https://ieeexplore.ieee.org/abstract/document/10077426))][[Code](https://github.com/NiccoBiondi/cores-compatibility)]
+- [**TPAMI'23**] CoReS: Compatible Representations via Stationarity. [[Paper](https://ieeexplore.ieee.org/abstract/document/10077426)][[Code](https://github.com/NiccoBiondi/cores-compatibility)]
 
 ## Others
 
