@@ -35,13 +35,12 @@ This repository aims to serve as a resource for the IR community and related res
 - [**BMVC'20**] On the Exploration of Incremental Learning for Fine-grained Image Retrieval. [[Paper](https://www.bmva-archive.org.uk/bmvc/2020/assets/papers/0079.pdf)]
 - [**CVPR'19**] Deep incremental hashing network for efficient image retrieval. [[Paper](https://www.bmva-archive.org.uk/bmvc/2020/assets/papers/0079.pdf)][[Code](https://github.com/IIE-MR/DIHN)]
 
-### Cross-modal Retrieval
-- [**CVPR'21 Workshop**] Continual learning in cross-modal retrieval. [[Paper](https://openaccess.thecvf.com/content/CVPR2021W/CLVision/Papers/Wang_Continual_Learning_in_Cross-Modal_Retrieval_CVPRW_2021_Paper.pdf)]
-
-### Multimodal Retrieval
+### Cross-modal/Multimodal Retrieval
 - [**ICML'26**] Hyperbolic Multimodal Continual Learning. [[Paper](https://openreview.net/pdf?id=e4tSzgWjXU)][[Code](https://github.com/HUBERILT/HMCL_ICML)]
 - [**NeurIPS'25**] Continual Multimodal Contrastive Learning. [[Paper](https://neurips.cc/virtual/2025/poster/116428)][[Code](https://github.com/Xiaohao-Liu/CMCL)]
 - [**ICLR'25**] C-CLIP: Multimodal Continual Learning for Vision-Language Model. [[Paper](https://proceedings.iclr.cc/paper_files/paper/2025/file/72fb9ab442fc60b7ae5d53bf6b478273-Paper-Conference.pdf)][[Code](https://github.com/SmallPigPeppa/C-CLIP)]
+- [**ICCV'23**] CTP: Towards Vision-Language Continual Pretraining via Compatible Momentum Contrast and Topology Preservation [[Paper](http://arxiv.org/abs/2308.07146)] [[Code](https://github.com/KevinLight831/CTP)]
+- [**CVPR'21 Workshop**] Continual learning in cross-modal retrieval. [[Paper](https://openaccess.thecvf.com/content/CVPR2021W/CLVision/Papers/Wang_Continual_Learning_in_Cross-Modal_Retrieval_CVPRW_2021_Paper.pdf)]
 
 ### Compatible Representation Learning
 **Why this is relevant**
