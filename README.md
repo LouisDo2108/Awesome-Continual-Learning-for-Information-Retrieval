@@ -68,11 +68,11 @@ Note: Copy paste from this [post](https://www.linkedin.com/posts/niccol%C3%B2-bi
 Temporal information is a fundamental source of non-stationarity in data distributions, making Temporal IR inherently relevant to CL in IR.
 
 #### Surveys
-- [**arxiv'25**] It's High Time: A Survey of Temporal Question Answering. [[Paper](https://arxiv.org/abs/2505.20243)]
+- [**ACL'26**] It's High Time: A Survey of Temporal Question Answering. [[Paper](https://aclanthology.org/2026.acl-long.1332.pdf)]
 - [**Foundations and Trends® in IR**] Temporal Information Retrieval. [[Paper](https://dl.acm.org/doi/abs/10.1561/1500000043)]
 
 #### Papers
-- [**arxiv'26**] Efficient Temporal-aware Matryoshka Adaptation for Temporal Information Retrieval. [[Paper](https://arxiv.org/pdf/2601.05549)]
+- [**EMNLP'26**] Efficient Temporal-aware Matryoshka Adaptation for Temporal Information Retrieval. [[Paper](https://arxiv.org/pdf/2601.05549)]
 - [**WSDM'26**] TempRetriever: Fusion-based Temporal Dense Passage Retrieval for Time-Sensitive Questions. [[Paper](https://dl.acm.org/doi/10.1145/3773966.3777938)][[Code](https://github.com/DataScienceUIBK/TempRetriever)]
 - [**EMNLP'25 Findings**] MRAG: A modular retrieval framework for time-sensitive question answering. [[Paper](https://aclanthology.org/2025.findings-emnlp.167)][[Code](https://github.com/siyue-zhang/MRAG)]
 - [**ACL'25 Workshop**] Temporal information retrieval via time-specifier model merging. [[Paper](https://aclanthology.org/2025.knowllm-1.1)][[Code](https://github.com/seungyoonee/TSM)]
