@@ -72,7 +72,7 @@ Temporal information is a fundamental source of non-stationarity in data distrib
 - [**Foundations and Trends® in IR**] Temporal Information Retrieval. [[Paper](https://dl.acm.org/doi/abs/10.1561/1500000043)]
 
 #### Papers
-- [**EMNLP'26**] Efficient Temporal-aware Matryoshka Adaptation for Temporal Information Retrieval. [[Paper](https://arxiv.org/pdf/2601.05549)]
+- [**EMNLP'26**] Efficient Temporal-aware Matryoshka Adaptation for Temporal Information Retrieval. [[Paper](https://arxiv.org/pdf/2601.05549)][[Code](https://github.com/LouisDo2108/TMRL)]
 - [**WSDM'26**] TempRetriever: Fusion-based Temporal Dense Passage Retrieval for Time-Sensitive Questions. [[Paper](https://dl.acm.org/doi/10.1145/3773966.3777938)][[Code](https://github.com/DataScienceUIBK/TempRetriever)]
 - [**EMNLP'25 Findings**] MRAG: A modular retrieval framework for time-sensitive question answering. [[Paper](https://aclanthology.org/2025.findings-emnlp.167)][[Code](https://github.com/siyue-zhang/MRAG)]
 - [**ACL'25 Workshop**] Temporal information retrieval via time-specifier model merging. [[Paper](https://aclanthology.org/2025.knowllm-1.1)][[Code](https://github.com/seungyoonee/TSM)]
